@@ -6,7 +6,7 @@ header {
     float:left;
     width:125px;
     height:100%;
-    border-right:1px solid;
+    border-right:1px solid #eee;
     position:fixed;
 }
 #logopic {
@@ -32,17 +32,19 @@ li {
 aside {
     padding-left: 2%;
     padding-right: 2%;
+    margin-right:55px;
     float:left;
-    width:28%;
-    border-left:1px solid black;
-    border-right:1px solid black;
+    width:23%;
+    border-left:1px solid #eee;
+
     color:#acacac;
+    font-weight:300;
 }
 #asidemain {
     margin-top:0;
     padding-right: 5px;
-    width:88% ;
-    border-right: 1px solid black;
+    width:100% ;
+
 }
 #content {
     margin-left:130px;
@@ -57,22 +59,44 @@ aside {
     font-size: 1.2em ;
     font-stretch: ;
 }
-#articles:first-child:hover {
+.articletitle:hover {
     color:#FF0000;
 }
 .articleauthor {
     color: #FF0000;
 }
 #contentheader {
-    margin-left:10px;
-    margin-top: 40px;
+    margin-left:0;
+    margin-top: 20px;
     width:60px;
     font-family: 'Alegreya Sans', sans-serif;
     font-size:3.2em;
 }
-
+.articletitle {
+    font-size: 1.9em;
+}
 
 h1 {
     margin-top: 60px;
     margin: auto;
+}
+#rightnav {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 55px;
+    border-left: 1px solid #eee;
+}
+#rotate {
+    margin-right:20px;
+    -webkit-transform:  rotate(90deg);
+    -webkit-transform-origin: 60% 100%;
+
+    -o-transform: rotate(20deg);
+    -o-transform-origin:60% 100%;
+
+    transform:  rotate(20deg);
+    transform-origin: 60% 100%;
+
 }
